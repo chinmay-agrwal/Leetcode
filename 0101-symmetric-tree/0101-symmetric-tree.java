@@ -15,42 +15,23 @@
  */
 class Solution {
 
-    public void rootRL(TreeNode root, ArrayList<Integer> ans){
-        if (root == null) {
-            ans.add(null);
-            return;
+    public boolean isSymmetricHelp(TreeNode leftRoot, TreeNode rightRoot){
+        if (leftRoot == null || rightRoot == null) {
+            return leftRoot==rightRoot;
         }
-        ans.add(root.val);
-        rootRL(root.right, ans);
-        rootRL(root.left, ans);
 
-        return;
-    }
-
-    public void rootLR(TreeNode root, ArrayList<Integer> ans){
-        if (root == null) {
-            ans.add(null);
-            return;
+        if (leftRoot.val != rightRoot.val) {
+            return false;
         }
-        ans.add(root.val);
-        rootLR(root.left, ans);
-        rootLR(root.right, ans);
 
-        return;
+        boolean ans = isSymmetricHelp(leftRoot.left, rightRoot.right) && isSymmetricHelp(leftRoot.right, rightRoot.left);
+        return ans;
     }
 
     public boolean isSymmetric(TreeNode root) {
-        ArrayList<Integer> list1 = new ArrayList<>();
-        ArrayList<Integer> list2 = new ArrayList<>();
-
-        rootLR(root.left, list1);
-        rootRL(root.right, list2);
-
-        System.out.println(list1);
-        System.out.println(list2);
-        if (list1.equals(list2)) {
+        if (root == null) {
             return true;
         }
-        return false;
+        return isSymmetricHelp(root.left, root.right);
     }
 }
