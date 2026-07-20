@@ -14,20 +14,28 @@
  * }
  */
 class Solution {
-    public boolean isSameTree(TreeNode p, TreeNode q) {
-        if ((p == null && q != null) || (p != null && q == null)) {
-            return false;
-        }
-        if (p == null && q == null) {
-            return true;
-        }
-        
-        boolean ans1 = isSameTree(p.left, q.left);
-        boolean ans2 = isSameTree(p.right, q.right);
 
-        if (ans1 == true && ans2 == true && p.val == q.val) {
-            return true;
+    public void preOrder(TreeNode root, ArrayList<Integer> list){
+        if (root == null) {
+            list.add(null);
+            return;
         }
-        return false;
+
+        list.add(root.val);
+        preOrder(root.left, list);
+        preOrder(root.right, list);
+
+        return;
+    }
+
+    public boolean isSameTree(TreeNode p, TreeNode q) {
+        
+        ArrayList<Integer> tree1 = new ArrayList<>();
+        ArrayList<Integer> tree2 = new ArrayList<>();
+
+        preOrder(p, tree1);
+        preOrder(q, tree2);
+
+        return tree1.equals(tree2);
     }
 }
