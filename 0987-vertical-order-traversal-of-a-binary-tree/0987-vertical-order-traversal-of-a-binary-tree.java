@@ -13,19 +13,60 @@
  *     }
  * }
  */
+class Pair{
+
+    TreeNode node;
+    int row;
+    int col;
+
+    Pair(TreeNode node, int row, int col){
+        this.node = node;
+        this.row = row;
+        this.col = col;
+    }
+}
+
 class Solution {
-
-    TreeMap<Integer,TreeMap<Integer,PriorityQueue<Integer>>> map = new TreeMap<>();
-
     public List<List<Integer>> verticalTraversal(TreeNode root) {
         
-        dfs(root, 0, 0);
+        TreeMap<Integer,TreeMap<Integer,PriorityQueue<Integer>>> map = new TreeMap<>();
+
+        Queue<Pair> q = new LinkedList<>();
+
+        q.offer(new Pair(root, 0, 0));
+
+        while (!q.isEmpty()) {
+            Pair curr = q.poll();
+
+            TreeNode node = curr.node;
+            int row = curr.row;
+            int col = curr.col;
+
+            if (!map.containsKey(col)) {
+                map.put(col, new TreeMap<>());
+            }
+
+            if (!map.get(col).containsKey(row)) {
+                map.get(col).put(row, new PriorityQueue<>());
+            }
+
+            map.get(col).get(row).offer(node.val);
+
+            if (node.left != null) {
+                q.offer(new Pair(node.left, row+1, col-1));
+            }
+            if (node.right != null) {
+                q.offer(new Pair(node.right, row+1, col+1));
+            }
+
+        }
 
         List<List<Integer>> ans = new ArrayList<>();
 
         for(TreeMap<Integer, PriorityQueue<Integer>> row : map.values()){
+
             List<Integer> list = new ArrayList<>();
-            
+
             for(PriorityQueue<Integer> pq : row.values()){
                 while (!pq.isEmpty()) {
                     list.add(pq.poll());
@@ -33,25 +74,7 @@ class Solution {
             }
             ans.add(list);
         }
+
         return ans;
-    }
-
-    public void dfs(TreeNode root, int row, int col){
-        if (root == null) {
-            return;
-        }
-
-        if (!map.containsKey(col)) {
-            map.put(col, new TreeMap<>());
-        }
-
-        if (!map.get(col).containsKey(row)) {
-            map.get(col).put(row, new PriorityQueue<>());
-        }
-
-        map.get(col).get(row).offer(root.val);
-
-        dfs(root.left, row+1, col-1);
-        dfs(root.right, row+1, col+1);
     }
 }
