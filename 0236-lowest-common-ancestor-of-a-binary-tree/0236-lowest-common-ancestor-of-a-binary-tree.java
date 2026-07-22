@@ -41,8 +41,11 @@ class Solution {
         while (i < list1.size() && i <list2.size()) {
             if (list1.get(i).equals(list2.get(i))) {
                 ind = i;
+                i++;
             }
-            i++;
+            else{
+                break;
+            }
         }
 
         return new TreeNode(list1.get(ind));
