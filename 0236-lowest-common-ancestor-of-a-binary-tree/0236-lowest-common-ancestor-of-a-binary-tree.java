@@ -35,27 +35,16 @@ class Solution {
         dfs(root, list1, p);
         dfs(root, list2, q);
 
-        if (list1.contains(q.val)) {
-            return q;
-        }
-        if (list2.contains(p.val)) {
-            return p;
-        }
-        else{
-            if (list1.size() <= list2.size()) {
-                for(int i=list1.size()-1; i>=0; i--){
-                    if (list2.contains(list1.get(i))) {
-                        return new TreeNode(list1.get(i));
-                    }
-                }
+        int i = 0;
+        int ind = 0;
+        
+        while (i < list1.size() && i <list2.size()) {
+            if (list1.get(i).equals(list2.get(i))) {
+                ind = i;
             }
-            for(int i=list2.size()-1; i>=0; i--){
-                if (list1.contains(list2.get(i))) {
-                    return new TreeNode(list2.get(i));
-                }
-            }
+            i++;
         }
 
-        return p;
+        return new TreeNode(list1.get(ind));
     }
 }
