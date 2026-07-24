@@ -15,23 +15,7 @@
  */
 class Solution {
 
-    public TreeNode find(TreeNode root, int val){
-
-        if(root == null)
-            return null;
-
-        if(root.val == val)
-            return root;
-
-        TreeNode left = find(root.left, val);
-
-        if(left != null)
-            return left;
-
-        return find(root.right, val);
-    }
-
-    public void markParent(TreeNode root, HashMap<TreeNode, TreeNode> parentMap){
+    public TreeNode markParent(TreeNode root, HashMap<TreeNode, TreeNode> parentMap, int target, TreeNode k){
 
         Queue<TreeNode> q = new LinkedList<>();
         q.offer(root);
@@ -39,6 +23,10 @@ class Solution {
         while (!q.isEmpty()) {
             
             TreeNode curr = q.poll();
+
+            if (curr.val == target) {
+                k = curr;
+            }
 
             if (curr.left != null) {
                 parentMap.put(curr.left, curr);
@@ -50,17 +38,18 @@ class Solution {
             }
         }
 
+        return k;
     }
 
     public int amountOfTime(TreeNode root, int target) {
         
+        TreeNode k = null;
+
         HashMap<TreeNode, TreeNode> parentMap = new HashMap<>();
-        markParent(root, parentMap);
+        k = markParent(root, parentMap, target, k);
 
         HashSet<TreeNode> vis = new HashSet<>();
         Queue<TreeNode> q = new LinkedList<>();
-
-        TreeNode k = find(root, target);
 
         q.offer(k);
         vis.add(k);
