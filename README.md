@@ -90,6 +90,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Dynamic Programming
 |  |
 | ------- |
+| [0055-jump-game](https://github.com/chinmay-agrwal/Leetcode/tree/master/0055-jump-game) |
 | [0124-binary-tree-maximum-path-sum](https://github.com/chinmay-agrwal/Leetcode/tree/master/0124-binary-tree-maximum-path-sum) |
 ## Hash Table
 |  |
@@ -122,6 +123,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Array
 |  |
 | ------- |
+| [0055-jump-game](https://github.com/chinmay-agrwal/Leetcode/tree/master/0055-jump-game) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/chinmay-agrwal/Leetcode/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0455-assign-cookies](https://github.com/chinmay-agrwal/Leetcode/tree/master/0455-assign-cookies) |
 | [0860-lemonade-change](https://github.com/chinmay-agrwal/Leetcode/tree/master/0860-lemonade-change) |
@@ -136,6 +138,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Greedy
 |  |
 | ------- |
+| [0055-jump-game](https://github.com/chinmay-agrwal/Leetcode/tree/master/0055-jump-game) |
 | [0455-assign-cookies](https://github.com/chinmay-agrwal/Leetcode/tree/master/0455-assign-cookies) |
 | [0860-lemonade-change](https://github.com/chinmay-agrwal/Leetcode/tree/master/0860-lemonade-change) |
 <!---LeetCode Topics End-->
