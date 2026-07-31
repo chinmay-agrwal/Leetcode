@@ -108,6 +108,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0435-non-overlapping-intervals](https://github.com/chinmay-agrwal/Leetcode/tree/master/0435-non-overlapping-intervals) |
 | [0455-assign-cookies](https://github.com/chinmay-agrwal/Leetcode/tree/master/0455-assign-cookies) |
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/chinmay-agrwal/Leetcode/tree/master/0987-vertical-order-traversal-of-a-binary-tree) |
+| [1710-maximum-units-on-a-truck](https://github.com/chinmay-agrwal/Leetcode/tree/master/1710-maximum-units-on-a-truck) |
 ## String
 |  |
 | ------- |
@@ -135,6 +136,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0435-non-overlapping-intervals](https://github.com/chinmay-agrwal/Leetcode/tree/master/0435-non-overlapping-intervals) |
 | [0455-assign-cookies](https://github.com/chinmay-agrwal/Leetcode/tree/master/0455-assign-cookies) |
 | [0860-lemonade-change](https://github.com/chinmay-agrwal/Leetcode/tree/master/0860-lemonade-change) |
+| [1710-maximum-units-on-a-truck](https://github.com/chinmay-agrwal/Leetcode/tree/master/1710-maximum-units-on-a-truck) |
 ## Divide and Conquer
 |  |
 | ------- |
@@ -151,4 +153,5 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0435-non-overlapping-intervals](https://github.com/chinmay-agrwal/Leetcode/tree/master/0435-non-overlapping-intervals) |
 | [0455-assign-cookies](https://github.com/chinmay-agrwal/Leetcode/tree/master/0455-assign-cookies) |
 | [0860-lemonade-change](https://github.com/chinmay-agrwal/Leetcode/tree/master/0860-lemonade-change) |
+| [1710-maximum-units-on-a-truck](https://github.com/chinmay-agrwal/Leetcode/tree/master/1710-maximum-units-on-a-truck) |
 <!---LeetCode Topics End-->
