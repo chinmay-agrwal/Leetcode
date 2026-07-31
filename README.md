@@ -92,6 +92,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0055-jump-game](https://github.com/chinmay-agrwal/Leetcode/tree/master/0055-jump-game) |
 | [0124-binary-tree-maximum-path-sum](https://github.com/chinmay-agrwal/Leetcode/tree/master/0124-binary-tree-maximum-path-sum) |
+| [0435-non-overlapping-intervals](https://github.com/chinmay-agrwal/Leetcode/tree/master/0435-non-overlapping-intervals) |
 ## Hash Table
 |  |
 | ------- |
@@ -102,6 +103,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Sorting
 |  |
 | ------- |
+| [0435-non-overlapping-intervals](https://github.com/chinmay-agrwal/Leetcode/tree/master/0435-non-overlapping-intervals) |
 | [0455-assign-cookies](https://github.com/chinmay-agrwal/Leetcode/tree/master/0455-assign-cookies) |
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/chinmay-agrwal/Leetcode/tree/master/0987-vertical-order-traversal-of-a-binary-tree) |
 ## String
@@ -125,6 +127,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0055-jump-game](https://github.com/chinmay-agrwal/Leetcode/tree/master/0055-jump-game) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/chinmay-agrwal/Leetcode/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
+| [0435-non-overlapping-intervals](https://github.com/chinmay-agrwal/Leetcode/tree/master/0435-non-overlapping-intervals) |
 | [0455-assign-cookies](https://github.com/chinmay-agrwal/Leetcode/tree/master/0455-assign-cookies) |
 | [0860-lemonade-change](https://github.com/chinmay-agrwal/Leetcode/tree/master/0860-lemonade-change) |
 ## Divide and Conquer
@@ -139,6 +142,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0055-jump-game](https://github.com/chinmay-agrwal/Leetcode/tree/master/0055-jump-game) |
+| [0435-non-overlapping-intervals](https://github.com/chinmay-agrwal/Leetcode/tree/master/0435-non-overlapping-intervals) |
 | [0455-assign-cookies](https://github.com/chinmay-agrwal/Leetcode/tree/master/0455-assign-cookies) |
 | [0860-lemonade-change](https://github.com/chinmay-agrwal/Leetcode/tree/master/0860-lemonade-change) |
 <!---LeetCode Topics End-->
