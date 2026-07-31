@@ -2,7 +2,7 @@ class Solution {
     public int maximumUnits(int[][] boxTypes, int truckSize) {
         
         int n = boxTypes.length;
-        Arrays.sort(boxTypes, (a,b) -> b[1] - a[1]);
+        Arrays.sort(boxTypes, (a,b) -> Integer.compare(b[1],a[1]));
 
         int maxUnits = 0;
 
