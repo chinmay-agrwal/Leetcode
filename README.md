@@ -154,4 +154,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0455-assign-cookies](https://github.com/chinmay-agrwal/Leetcode/tree/master/0455-assign-cookies) |
 | [0860-lemonade-change](https://github.com/chinmay-agrwal/Leetcode/tree/master/0860-lemonade-change) |
 | [1710-maximum-units-on-a-truck](https://github.com/chinmay-agrwal/Leetcode/tree/master/1710-maximum-units-on-a-truck) |
+## Math
+|  |
+| ------- |
+| [0050-powx-n](https://github.com/chinmay-agrwal/Leetcode/tree/master/0050-powx-n) |
+## Recursion
+|  |
+| ------- |
+| [0050-powx-n](https://github.com/chinmay-agrwal/Leetcode/tree/master/0050-powx-n) |
 <!---LeetCode Topics End-->
