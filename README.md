@@ -116,6 +116,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Backtracking
 |  |
 | ------- |
+| [0078-subsets](https://github.com/chinmay-agrwal/Leetcode/tree/master/0078-subsets) |
 | [0257-binary-tree-paths](https://github.com/chinmay-agrwal/Leetcode/tree/master/0257-binary-tree-paths) |
 ## Binary Search
 |  |
@@ -124,6 +125,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Bit Manipulation
 |  |
 | ------- |
+| [0078-subsets](https://github.com/chinmay-agrwal/Leetcode/tree/master/0078-subsets) |
 | [0222-count-complete-tree-nodes](https://github.com/chinmay-agrwal/Leetcode/tree/master/0222-count-complete-tree-nodes) |
 ## Array
 |  |
@@ -132,6 +134,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0055-jump-game](https://github.com/chinmay-agrwal/Leetcode/tree/master/0055-jump-game) |
 | [0056-merge-intervals](https://github.com/chinmay-agrwal/Leetcode/tree/master/0056-merge-intervals) |
 | [0057-insert-interval](https://github.com/chinmay-agrwal/Leetcode/tree/master/0057-insert-interval) |
+| [0078-subsets](https://github.com/chinmay-agrwal/Leetcode/tree/master/0078-subsets) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/chinmay-agrwal/Leetcode/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0435-non-overlapping-intervals](https://github.com/chinmay-agrwal/Leetcode/tree/master/0435-non-overlapping-intervals) |
 | [0455-assign-cookies](https://github.com/chinmay-agrwal/Leetcode/tree/master/0455-assign-cookies) |
