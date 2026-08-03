@@ -92,6 +92,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0045-jump-game-ii](https://github.com/chinmay-agrwal/Leetcode/tree/master/0045-jump-game-ii) |
 | [0055-jump-game](https://github.com/chinmay-agrwal/Leetcode/tree/master/0055-jump-game) |
+| [0070-climbing-stairs](https://github.com/chinmay-agrwal/Leetcode/tree/master/0070-climbing-stairs) |
 | [0124-binary-tree-maximum-path-sum](https://github.com/chinmay-agrwal/Leetcode/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0435-non-overlapping-intervals](https://github.com/chinmay-agrwal/Leetcode/tree/master/0435-non-overlapping-intervals) |
 ## Hash Table
@@ -164,8 +165,13 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0050-powx-n](https://github.com/chinmay-agrwal/Leetcode/tree/master/0050-powx-n) |
+| [0070-climbing-stairs](https://github.com/chinmay-agrwal/Leetcode/tree/master/0070-climbing-stairs) |
 ## Recursion
 |  |
 | ------- |
 | [0050-powx-n](https://github.com/chinmay-agrwal/Leetcode/tree/master/0050-powx-n) |
+## Memoization
+|  |
+| ------- |
+| [0070-climbing-stairs](https://github.com/chinmay-agrwal/Leetcode/tree/master/0070-climbing-stairs) |
 <!---LeetCode Topics End-->
