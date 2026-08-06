@@ -1,7 +1,6 @@
 class Solution {
 
     List<List<Integer>> list = new ArrayList<>();
-    List<Integer> ans = new ArrayList<>();
 
     public void f(int nums[], List<Integer> ans){
         if (nums.length == 0) {
