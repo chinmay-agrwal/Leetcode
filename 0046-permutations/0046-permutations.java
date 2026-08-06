@@ -2,8 +2,8 @@ class Solution {
 
     List<List<Integer>> list = new ArrayList<>();
 
-    public void f(int nums[], List<Integer> ans){
-        if (nums.length == 0) {
+    public void f(int nums[], boolean vis[], List<Integer> ans){
+        if (ans.size() == nums.length) {
             list.add(new ArrayList<>(ans));
             return;
         }
@@ -11,26 +11,25 @@ class Solution {
 
         int n = nums.length;
         for (int i = 0; i < n; i++) {
-            int curr = nums[i];
-            int red_nums[] = new int[n-1];
-            int k = 0;
-            for (int j = 0; j < nums.length; j++) {
-                if (j!=i) {
-                    red_nums[k] = nums[j];
-                    k++;
-                }
+            
+            if (vis[i] == false) {
+                vis[i] = true;
+                int curr = nums[i];
+                
+                ans.add(curr);
+                f(nums, vis, ans);
+                ans.remove(ans.size() - 1);
+                vis[i] = false;
             }
-
-            ans.add(curr);
-            f(red_nums, ans);
-            ans.remove(Integer.valueOf(curr));
 
         }
     }
 
     public List<List<Integer>> permute(int[] nums) {
         
-        f(nums, new ArrayList<>());
+        int n = nums.length;
+        boolean vis[] = new boolean[n];
+        f(nums, vis, new ArrayList<>());
         return list;
     }
 }
